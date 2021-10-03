@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body{
+        width: 100%;
+        height: 100vh;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        background: white;
+        margin:0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        
+}
+
+big-container{
+    margin: auto;
+    width: 100%;
+  
+
+}
+header{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 50px;
+    padding-left: 100px;
+    padding-right: 102px;
+    background: #F5F5F6;
+
+    
+}
+.img img{
+    width: 89px;
+    height: 23px
+}
+button{
+    width: 57px;
+    height: 32px;
+    font-size: 11px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 4px;
+    line-height: 11px;
+    font-weight: 500;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+li{
+    color: #959BA4;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    margin-right: 30px;
+    color: #959BA4;
+}
+li:hover{
+    color: black;
+}
+h1{
+    /* margin: auto; */
+    align-self: flex-start;
+    margin-bottom: 33px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+main{
+    position: relative;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* первые блок */
+section{
+    width: 641px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+.blockOne{
+    width: 259px;
+    height: 200px;
+}
+.small-block{
+    display: flex;
+    width: 259px;
+    height: 30px;
+    margin-bottom: 22px;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    text-align: center;
+}
+.small-block div, .small-block select{
+    border: 1px solid #E5E5E5;
+    width: 52px;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #C6C6C6;
+}
+
+.small-block select{
+    padding-left: 0;
+    margin: 0;
+    height: 32px;
+    border-radius: 0;
+}
+
+.answer{
+    width: 259px;
+    height: 102px;
+    border: 1px solid;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/* блок второй */
+.blockTwo{
+    position: relative;
+    width: 123px;
+    height: 200px;
+}
+.arrow{
+    position: absolute;
+    left: 44px;
+    right: 42px;
+    top: 130px;
+}
+
+/* блок третий */
+.blockThree{
+    width: 259px;
+    height: 200px;
+}
+select{
+    border: none;
+    
+}
+option{
+    border: none;
+    background-color: white;
+    color: black;
+}
+option:hover{
+    background: rgb(80, 135, 236);
+}
+input{
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    height: 13px;
+    color: #C6C6C6;
+}
+
+
+/* test *
+
+
+.test{
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    width: 200px;
+
+
+}*/
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+.ip{
+    width: 100px;
+    height: 50px;
+}
+.preloader.hide-preloader {
+    animation: hidePreloader 6s;
+}
+
+.preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.arrow{
+    border: 1px solid black;
+}
+
+.mama{
+    width: 200px ;
+    margin: auto;
+    height: 50px;
+    border: 1px solid black;
+    background: rgb(53, 142, 194);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+
+}
+.mama:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 4s;
+}
